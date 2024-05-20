@@ -56,6 +56,11 @@ nav ul li button {
     font-family: "poppins", sans-serif;
     font-size: 15px;
     text-decoration: none;
+
+}
+
+button :hover{
+    opacity: 0.8;
 }
 
 .texto {
@@ -130,17 +135,13 @@ section{
     display: flex; 
     flex-direction: column; 
     align-items: center; 
-<<<<<<< HEAD
     padding: 20px;
     margin: 10%;
-=======
     padding: 20px 20px;
     margin: 5% 10%;
->>>>>>> 4c8afa8dd7bc1b9384f6a1071187ec05dbce2a43
     box-shadow: 0 2px 5px;
     border-radius: 5%;
 }
-
 
 .meio{
     display: flex;
@@ -165,6 +166,9 @@ h1{
     margin: 4%;
     display: flex;
     position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .estrelas{
@@ -226,13 +230,14 @@ input{
 }
 
 .facaparte{
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: black;
     cursor: pointer;
     background-color: #5B7502;
     font-family: "poppins", sans-serif;
     font-size: 15px;
-    text-decoration: none;
+    border: none;
+    border-radius: 5%;
 }
 
 .texto-final{
